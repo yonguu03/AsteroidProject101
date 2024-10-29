@@ -20,8 +20,8 @@ public class Boss extends Characters {
         }
         this.velocity = 1;
         this.angle = Math.random() * 2 * Math.PI;
-        this.entityShape.setScaleX(2.0);
-        this.entityShape.setScaleY(2.0);
+        this.entityShape.setScaleX(3.0);
+        this.entityShape.setScaleY(3.0);
     }
 
     @Override
